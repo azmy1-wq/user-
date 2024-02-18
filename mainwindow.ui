@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="image.qrc">
+    <normaloff>:/Downloads/423147509_915436063447110_5502463889325977757_n.jpg</normaloff>:/Downloads/423147509_915436063447110_5502463889325977757_n.jpg</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>24</width>
+    <height>24</height>
+   </size>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>241</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#9c9c9c;&quot;&gt;nom et prenom &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>341</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#ababab;&quot;&gt;Email&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>211</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#a3a3a3;&quot;&gt;mot de passe &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Boutons normaux */
+QPushButton {
+    background-color: #2980b9; /* Bleu légèrement plus sombre pour le fond */
+    color: #ffffff; /* Texte blanc */
+    border: 2px solid #1f618d; /* Bordure bleue plus foncée */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px 10px; /* Espacement intérieur */
+}
+
+/* Effet de survol */
+QPushButton:hover {
+    background-color: #1f618d; /* Bleu foncé pour le survol */
+}
+
+/* Effet de pression */
+QPushButton:pressed {
+    background-color: #154360; /* Bleu foncé pour la pression */
+    border: 2px solid #117a8b; /* Bordure bleue foncée pour la pression */
+}
+
+/* Boutons désactivés */
+QPushButton:disabled {
+    background-color: #bdc3c7; /* Gris-bleu pour les boutons désactivés */
+    color: #ecf0f1; /* Texte plus clair pour les boutons désactivés */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>S'inscrire </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Boutons normaux */
+QPushButton {
+    background-color: #2980b9; /* Bleu légèrement plus sombre pour le fond */
+    color: #ffffff; /* Texte blanc */
+    border: 2px solid #1f618d; /* Bordure bleue plus foncée */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px 10px; /* Espacement intérieur */
+}
+
+/* Effet de survol */
+QPushButton:hover {
+    background-color: #1f618d; /* Bleu foncé pour le survol */
+}
+
+/* Effet de pression */
+QPushButton:pressed {
+    background-color: #154360; /* Bleu foncé pour la pression */
+    border: 2px solid #117a8b; /* Bordure bleue foncée pour la pression */
+}
+
+/* Boutons désactivés */
+QPushButton:disabled {
+    background-color: #bdc3c7; /* Gris-bleu pour les boutons désactivés */
+    color: #ecf0f1; /* Texte plus clair pour les boutons désactivés */
+}</string>
+     </property>
+     <property name="text">
+      <string>continuer avec E-mail </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>250</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Boutons normaux */
+QPushButton {
+    background-color: #2980b9; /* Bleu légèrement plus sombre pour le fond */
+    color: #ffffff; /* Texte blanc */
+    border: 2px solid #1f618d; /* Bordure bleue plus foncée */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px 10px; /* Espacement intérieur */
+}
+
+/* Effet de survol */
+QPushButton:hover {
+    background-color: #1f618d; /* Bleu foncé pour le survol */
+}
+
+/* Effet de pression */
+QPushButton:pressed {
+    background-color: #154360; /* Bleu foncé pour la pression */
+    border: 2px solid #117a8b; /* Bordure bleue foncée pour la pression */
+}
+
+/* Boutons désactivés */
+QPushButton:disabled {
+    background-color: #bdc3c7; /* Gris-bleu pour les boutons désactivés */
+    color: #ecf0f1; /* Texte plus clair pour les boutons désactivés */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>se conncter </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>olivia wilson </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>hello@rellygreatsite.com</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_password">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>********</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; color:#6c6c6c;&quot;&gt;j'ai dejà un compte &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-30</y>
+      <width>791</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#fafafa;&quot;&gt;Crèer un compte &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>label_7</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
